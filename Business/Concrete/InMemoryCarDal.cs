@@ -6,6 +6,5 @@ namespace Business.Concrete
 {
     class InMemoryCarDal
     {
-
     }
 }
