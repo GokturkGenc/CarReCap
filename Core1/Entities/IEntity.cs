@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Business.Concrete
+namespace Core.Entities
 {
-    class InMemoryCarDal
+    public interface IEntity
     {
+
+
     }
 }
