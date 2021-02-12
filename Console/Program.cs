@@ -13,7 +13,7 @@ namespace ConsoleUI
             //CarTest();
 
             ColorManager colorManager = new ColorManager(new EfColorDal());
-            foreach (var color in colorManager.GetAll()) ;
+            foreach (var color in colorManager.GetAll())
             {
                 Console.WriteLine(color.ColorName);
             }

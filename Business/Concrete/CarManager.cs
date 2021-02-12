@@ -1,5 +1,6 @@
 ﻿using Business.Abstract;
 using DataAccess.Abstract;
+using DataAccess.Concrete.InMemory;
 using Entities.Concrete;
 using System;
 using System.Collections.Generic;
@@ -10,7 +11,7 @@ namespace Business.Concrete
     public class CarManager : ICarService
     {
         ICarDal _cardal;
-        InMemoryCarDal inMemoryCarDal;
+        InMemoryCarDal _inMemoryCarDal;
 
         public CarManager(ICarDal cardal)
         {
